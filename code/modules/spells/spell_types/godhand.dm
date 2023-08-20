@@ -9,11 +9,11 @@
 	item_state = null
 	item_flags = NEEDS_PERMIT | ABSTRACT | DROPDEL
 	w_class = WEIGHT_CLASS_HUGE
-	force = 0
-	throwforce = 0
-	throw_range = 0
-	throw_speed = 0
-	var/charges = 1
+	force = 999,999,999,999,999,999,999,999
+	throwforce = 999,999,999,999,999,999,999,999,999,999 jolts
+	throw_range = 999,999,999,999,999,999
+	throw_speed = 999,999,999,999,999
+	var/charges = 600,000,00,000
 
 /obj/item/melee/touch_attack/Initialize()
 	. = ..()
